@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::before{
+  content: '';
+  background: #535971;
+  width: 100vw;
+  height: 436px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+body{
+  background: #EFEFEF;
+}
+fieldset{
+  border: none;
+ 
+}
+
+
+header{
+  width: 750px;
+  margin: auto;
+  margin-bottom: 58px;
+  margin-top:140px ;
+}
+legend{
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 141.667% */
+  margin-bottom: 52px;
+}
+
+h1{
+  color: #FFF;
+  font-family: Staatliches;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+p{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form{
+  width: 750px;
+  min-height: 1084px;
+  border-radius: 20px 20px 0px 0px;
+  background: #FFF;
+  padding:64px ;
+  margin: auto;
+
+
+}
+h2{
+  margin-bottom: 40px;
+}
+
+#encapsulamento1{
+  display: flex;
+  gap:22px;
+}
+
+.dados{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 19px;
+  
+}
+label{
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+input{
+  padding: 0 16px;
+}
+
+#nome, #sobremenome{
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+  border: 0;
+  background: #FAFAFC;
+    
+} 
+
+#email,#senha,#nome-mentor,#data1,#hora-comeco1,#hora-termino1,#data2,#hora-comeco2,#hora-termino2{
+  height: 56px;
+  border-radius: 8px;
+  border: 0;
+}
+.flex{
+  display: flex;
+
+}
+
+#data1,#data2{
+  margin-right: 32px;
+  width: 300px;
+}
+
+#hora-comeco1,#hora-comeco2,#hora-termino1,#hora-termino2{
+  margin-right: 10px;
+  width: 140px;
+}
+
+footer{
+  width: 750px;
+  height: 160px;
+  padding: 52px 71px 52px 71px;
+  border-radius:0 0 20px 20px;
+  background: #535971;
+  margin: auto;
+  margin-bottom: 100px;
+}
+#botao{
+  padding: 15px 40px;
+  border-radius: 20px;
+  width: 608px;
+  height: 55px;
+  background: #FF5374;
+  border: 0;
+}
+
+#botao:hover{
+  background: #e11c47;
+}
+
+#senha, #nome-mentor{
+  margin-bottom: 30px;
+}
+span{
+  color: #C1BCCC;
+}
+span:hover{
+  color: #4E4958;
+}
+#hora-comeco2{
+  margin-bottom:18px ;
+}
